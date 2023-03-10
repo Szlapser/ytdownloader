@@ -49,7 +49,7 @@ app.get("/download", async (req, res) => {
     await (await ytdl.getInfo(url)).formats.forEach(format=>{
         itags.push(format.itag)
     })
-    if (itag in itags) {
+    if (itags.includes(parseInt(itag))) {
     res.header('Content-Disposition', 'attachment; filename="video.mp4"');
     await ytdl(url, {quality: itag}).pipe(res)
     }else {
