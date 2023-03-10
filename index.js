@@ -26,7 +26,7 @@ app.get("/", async (req,res)=>{
             })
             res.render("index", {choice: optionsStr})
             }else {
-                res.send(`<script>alert("Invalid URL!"); window.location.href = "https://burgundy-beaver-sari.cyclic.app0"; </script>`)
+                res.send(`<script>alert("Invalid URL!"); window.location.href = "https://ytdownloader-uk3v.onrender.com/"; </script>`)
             }
             
       
