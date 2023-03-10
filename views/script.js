@@ -7,7 +7,7 @@ convertBtn.addEventListener('click', () => {
         window.location.href = 'https://ytdownloader-uk3v.onrender.com//?url='+urlInput.value
     }else {
         if (select.value!='') {
-            window.location.href = 'https://ytdownloader-uk3v.onrender.com//download?itag='+select.value+'&url='+window.location.href.split('?url=')[1]
+            window.location.href = 'https://ytdownloader-uk3v.onrender.com/download?itag='+select.value+'&url='+window.location.href.split('?url=')[1]
 
         
     }
